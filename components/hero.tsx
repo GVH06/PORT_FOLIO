@@ -108,7 +108,7 @@ export function Hero() {
             <div className="absolute inset-0 rounded-[2.5rem] bg-gradient-to-tr from-primary/20 via-transparent to-blue-500/20 blur-xl transition duration-500" />
             <div className="relative h-full w-full rounded-[2.5rem] border border-white/20 glass-card overflow-hidden shadow-2xl bg-card">
               <img
-                src="/profile.jpg"
+                src="profile.jpg"
                 alt="Profile photo of Hasini"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
               />

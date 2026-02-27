@@ -64,7 +64,7 @@ export function Hero() {
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </a>
             <a
-              href="/resume.pdf"
+              href="resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 rounded-full border border-border bg-card/50 backdrop-blur-sm px-8 py-4 text-sm font-semibold text-foreground transition-all duration-300 hover:border-primary/50 hover:bg-primary/5"

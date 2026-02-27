@@ -24,8 +24,8 @@ export function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 flex justify-center pt-4 md:pt-6 px-4`}
     >
       <nav className={`w-full max-w-4xl rounded-2xl md:rounded-full px-6 py-4 flex items-center justify-between transition-all duration-500 ${scrolled
-          ? "glass shadow-xl shadow-black/10 scale-[0.98] border-opacity-20"
-          : "bg-transparent border border-transparent scale-100"
+        ? "glass shadow-xl shadow-black/10 scale-[0.98] border-opacity-20"
+        : "bg-transparent border border-transparent scale-100"
         }`}>
         <a href="#" className="font-mono text-lg font-bold tracking-tight text-foreground transition-transform hover:scale-105">
           G V S L HASINI
@@ -46,7 +46,7 @@ export function Navbar() {
           ))}
           <li>
             <a
-              href="/resume.pdf"
+              href="resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full bg-primary/10 border border-primary/20 px-5 py-2 text-sm font-medium text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:scale-105 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]"
@@ -83,7 +83,7 @@ export function Navbar() {
             ))}
             <li className="pt-4 border-t border-border">
               <a
-                href="/resume.pdf"
+                href="resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
